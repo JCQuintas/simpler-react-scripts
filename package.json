@@ -1,5 +1,7 @@
 {
-  "private": true,
+  "name": "simpler-react-scripts",
+  "version": "0.0.1",
+  "private": false,
   "scripts": {
     "build": "node packages/react-scripts/scripts/build.js",
     "changelog": "lerna-changelog",
