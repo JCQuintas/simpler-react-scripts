@@ -1,6 +1,7 @@
 {
   "name": "simpler-react-scripts",
   "version": "0.0.2",
+  "repository": "https://github.com/JCQuintas/simpler-react-scripts",
   "private": false,
   "scripts": {
     "build": "node packages/react-scripts/scripts/build.js",
