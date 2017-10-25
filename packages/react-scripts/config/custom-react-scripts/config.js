@@ -4,7 +4,7 @@ const customizers = {
   babelPlugins: require('./customizers/babel-plugins'),
   babelPresets: require('./customizers/babel-presets'),
   webpackLoaders: require('./customizers/webpack-loaders'),
-  webpackPlugins: require('./customizers/webpack-plugins'),
+  // webpackPlugins: require('./customizers/webpack-plugins'),
 };
 
 module.exports = getCustomConfig = (isDev = true) => {
