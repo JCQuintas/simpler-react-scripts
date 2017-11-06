@@ -1,3 +1,5 @@
+'use strict';
+
 const mapObject = require('./utils/map-object');
 
 const customizers = {
