@@ -1,3 +1,5 @@
+'use strict';
+
 const styleLoader = require('../webpack-config/style-loader');
 const sassLoader = require.resolve('sass-loader');
 const lessLoader = require.resolve('less-loader');

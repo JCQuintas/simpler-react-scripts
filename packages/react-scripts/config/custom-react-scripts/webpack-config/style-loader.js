@@ -1,3 +1,5 @@
+'use strict';
+
 const postCssOptions = require('../options/postcss-options');
 const extractTextPluginOptions = require('../options/extract-text-plugin-options');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
