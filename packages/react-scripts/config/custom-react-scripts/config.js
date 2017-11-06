@@ -9,7 +9,7 @@ const customizers = {
   // webpackPlugins: require('./customizers/webpack-plugins'),
 };
 
-module.exports = getCustomConfig = (isDev = true) => {
+module.exports = (isDev = true) => {
   var env = env || {};
   const result = mapObject(customizers, group => {
     return mapObject(
