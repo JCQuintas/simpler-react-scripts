@@ -1,7 +1,7 @@
 {
   "name": "simpler-react-scripts",
-  "version": "0.1.0",
-  "repository": "https://github.com/JCQuintas/simpler-react-scripts",
+  "version": "0.1.1",
+  "repository": "JCQuintas/simpler-react-scripts",
   "description": "Configuration and scripts for Create React App.",
   "license": "MIT",
   "engines": {
