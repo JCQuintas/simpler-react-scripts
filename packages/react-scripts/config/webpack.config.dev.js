@@ -181,7 +181,6 @@ module.exports = {
               cacheDirectory: true,
             },
           },
-          ...customConfig.webpackLoaders,
           // "postcss" loader applies autoprefixer to our CSS.
           // "css" loader resolves paths in CSS and adds assets as dependencies.
           // "style" loader turns CSS into JS modules that inject <style> tags.
@@ -235,6 +234,7 @@ module.exports = {
               name: 'static/media/[name].[hash:8].[ext]',
             },
           },
+          ...customConfig.webpackLoaders,
         ],
       },
       // ** STOP ** Are you adding a new loader?
